@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSPRODE ISO CONSULTING | Certificaciones ISO en Perú</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandBlue: {
+                            50: '#F0F7FF',
+                            100: '#E0EFFE',
+                            200: '#BAE0FD',
+                            500: '#0EA5E9',
+                            600: '#0284C7',
+                            700: '#0265DC',
+                            800: '#0A4B94',
+                            900: '#0B2545',
+                        },
+                        brandRed: {
+                            500: '#F43F5E',
+                            600: '#E11D48',
+                            700: '#BE123C',
+                        },
+                        silver: {
+                            50: '#F8FAFC',
+                            100: '#F1F5F9',
+                            200: '#E2E8F0',
+                            300: '#CBD5E1',
+                            400: '#94A3B8',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'glass': '0 20px 40px -15px rgba(2, 101, 220, 0.15)',
+                        'glow-blue': '0 0 25px rgba(2, 129, 199, 0.3)',
+                        'glow-red': '0 0 25px rgba(225, 29, 72, 0.35)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        
+        .glass-header {
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+
+        .gradient-card {
+            background: linear-gradient(135deg, #FFFFFF 0%, #F0F7FF 100%);
+            transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .gradient-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 35px -10px rgba(2, 101, 220, 0.18);
+            border-color: #BAE0FD;
+        }
+
+        .hero-pattern {
+            background-color: #0B2545;
+            background-image: radial-gradient(rgba(2, 101, 220, 0.30) 1.2px, transparent 1.2px), radial-gradient(rgba(225, 29, 72, 0.20) 1.2px, #0B2545 1.2px);
+            background-size: 36px 36px;
+            background-position: 0 0, 18px 18px;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-brandBlue-600 selection:text-white">
+
+    <!-- Barra Superior de Información Corporativa -->
+    <div class="bg-slate-950 text-slate-200 text-xs py-2.5 px-4 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-4">
+                <span class="flex items-center gap-1.5 font-medium">
+                    <i class="fa-solid fa-award text-amber-400"></i>
+                    <strong class="text-white">Respaldo Internacional IAF & UAF</strong>
+                </span>
+                <span class="hidden sm:inline text-slate-700">|</span>
+                <span class="flex items-center gap-1.5 text-slate-300">
+                    <i class="fa-solid fa-shield-check text-emerald-400"></i>
+                    Garantía Contractual de Aprobación 100%
+                </span>
+            </div>
+            <div class="flex items-center space-x-6">
+                <a href="tel:+51904483439" id="top-phone-link" class="hover:text-sky-300 transition-colors flex items-center gap-2 font-semibold">
+                    <i class="fa-solid fa-phone text-brandRed-500"></i> <span id="top-phone-text">(+51) 904 483 439</span>
+                </a>
+                <span class="text-slate-700">|</span>
+                <a href="mailto:insprodeisoconsultin@gmail.com" id="top-email-link" class="hover:text-sky-300 transition-colors flex items-center gap-2 font-semibold">
+                    <i class="fa-solid fa-envelope text-sky-400"></i> <span id="top-email-text">insprodeisoconsultin@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header con Logo Corporativo -->
+    <header class="sticky top-0 z-40 glass-header border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- Identidad Visual / Logo -->
+                <a href="#" class="flex items-center space-x-3.5 group">
+                    <div class="w-12 h-12 bg-white rounded-xl shadow-md border border-slate-200 p-1 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                        <svg viewBox="0 0 100 100" class="w-full h-full">
+                            <defs>
+                                <radialGradient id="globeGrad" cx="40%" cy="40%" r="60%">
+                                    <stop offset="0%" stop-color="#38BDF8"/>
+                                    <stop offset="70%" stop-color="#0265DC"/>
+                                    <stop offset="100%" stop-color="#0B2545"/>
+                                </radialGradient>
+                                <linearGradient id="checkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#FB7185"/>
+                                    <stop offset="100%" stop-color="#E11D48"/>
+                                </linearGradient>
+                            </defs>
+                            <path d="M 14,20 L 26,20 L 26,80 L 14,80 Z" fill="#0265DC"/>
+                            <path d="M 10,20 L 30,20 L 30,26 L 10,26 Z" fill="#0265DC"/>
+                            <path d="M 10,74 L 30,74 L 30,80 L 10,80 Z" fill="#0265DC"/>
+                            
+                            <circle cx="58" cy="50" r="26" fill="url(#globeGrad)" />
+                            <ellipse cx="58" cy="50" rx="26" ry="10" fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity="0.6"/>
+                            <ellipse cx="58" cy="50" rx="12" ry="26" fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity="0.6"/>
+                            <line x1="32" y1="50" x2="84" y2="50" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+
+                            <path d="M 46,26 A 30,30 0 1,1 46,74" fill="none" stroke="#0265DC" stroke-width="8" stroke-linecap="round"/>
+                            <path d="M 44,52 L 54,64 L 84,28" fill="none" stroke="url(#checkGrad)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M 44,52 L 54,64 L 84,28" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-1.5">
+                            <span class="text-xl sm:text-2xl font-black tracking-tight text-brandBlue-900 leading-none">INS<span class="text-brandRed-600">PRODE</span></span>
+                        </div>
+                        <div class="flex items-center gap-2 mt-0.5">
+                            <span class="text-[10px] font-extrabold tracking-wider text-brandBlue-700 uppercase">ISO CONSULTING</span>
+                            <span class="h-2.5 w-[1px] bg-slate-300"></span>
+                            <span class="text-[9px] font-semibold text-slate-500 italic hidden sm:inline">"Tu aliado estratégico en certificaciones ISO"</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Navegación Principal -->
+                <nav class="hidden lg:flex items-center space-x-8 text-xs font-bold uppercase tracking-wider text-slate-700">
+                    <a href="#nosotros" class="hover:text-brandBlue-700 transition-colors">Nosotros</a>
+                    <a href="#normas" class="hover:text-brandBlue-700 transition-colors">Normas ISO</a>
+                    <a href="#alianzas" class="hover:text-brandBlue-700 transition-colors">Acreditaciones</a>
+                    <a href="#metodologia" class="hover:text-brandBlue-700 transition-colors">Metodología</a>
+                    <a href="#faq" class="hover:text-brandBlue-700 transition-colors">FAQ</a>
+                </nav>
+
+                <!-- Botón Acción Directa -->
+                <div class="hidden lg:flex items-center space-x-4">
+                    <a href="#contacto" class="bg-gradient-to-r from-brandRed-600 to-brandRed-700 hover:from-brandRed-700 hover:to-brandRed-800 text-white px-6 py-3 rounded-xl font-bold text-xs shadow-md hover:shadow-glow-red transition-all transform hover:-translate-y-0.5 flex items-center gap-2">
+                        <i class="fa-solid fa-paper-plane text-xs"></i>
+                        <span>Solicitar Cotización</span>
+                    </a>
+                </div>
+
+                <!-- Botón Menú Móvil -->
+                <button id="mobile-menu-btn" class="lg:hidden text-slate-800 p-2 rounded-lg hover:bg-slate-100 focus:outline-none" aria-label="Abrir Menú">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Menú Desplegable Móvil -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-6 pt-3 pb-6 space-y-3 text-sm shadow-xl">
+            <a href="#nosotros" class="mobile-link block py-2.5 text-slate-700 font-semibold border-b border-slate-100">Sobre Nosotros</a>
+            <a href="#normas" class="mobile-link block py-2.5 text-slate-700 font-semibold border-b border-slate-100">Normas ISO (37001, 9001, 14001, 45001, 27001, 22000)</a>
+            <a href="#alianzas" class="mobile-link block py-2.5 text-slate-700 font-semibold border-b border-slate-100">Acreditaciones IAF & UAF</a>
+            <a href="#metodologia" class="mobile-link block py-2.5 text-slate-700 font-semibold border-b border-slate-100">Metodología 5 Pasos</a>
+            <a href="#faq" class="mobile-link block py-2.5 text-slate-700 font-semibold">Preguntas Frecuentes</a>
+            <div class="pt-2">
+                <a href="#contacto" class="mobile-link block w-full text-center bg-brandRed-600 hover:bg-brandRed-700 text-white py-3.5 rounded-xl font-bold">
+                    Solicitar Cotización Directa
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- PORTADA AZUL CORPORATIVA -->
+    <section class="hero-pattern relative py-16 lg:py-24 border-b border-slate-800 text-white overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-brandBlue-900/95 via-brandBlue-900/90 to-slate-950/95"></div>
+        <div class="absolute -top-32 -left-32 w-96 h-96 bg-brandBlue-600/25 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-32 -right-32 w-96 h-96 bg-brandRed-600/20 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Columna Izquierda -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2.5 bg-white/10 backdrop-blur-md border border-white/20 px-4 py-2 rounded-full text-xs font-bold text-sky-200 shadow-xl">
+                        <span class="w-2.5 h-2.5 rounded-full bg-brandRed-500 animate-ping"></span>
+                        <span class="text-white font-extrabold">INSPRODE ISO CONSULTING</span> — Tu aliado estratégico en certificaciones ISO
+                    </div>
+
+                    <h1 class="text-3xl sm:text-5xl lg:text-5xl font-black text-white leading-tight tracking-tight">
+                        Certifique su Empresa en <br class="hidden sm:inline" />
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-sky-200 to-brandRed-500">
+                            ISO 37001, 9001, 14001, 45001, 27001 y 22000
+                        </span>
+                    </h1>
+
+                    <p class="text-base text-slate-300 font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                        Fortalezca la integridad, calidad, inocuidad alimentaria y cumplimiento legal de su organización con asesoría técnica especializada. <strong class="text-white font-bold">Garantizamos por contrato el 100% de aprobación</strong> en auditorías de certificación.
+                    </p>
+
+                    <div class="grid sm:grid-cols-2 gap-3 pt-2 text-left text-xs font-bold text-white max-w-lg mx-auto lg:mx-0">
+                        <div class="flex items-center gap-3 bg-slate-900/80 backdrop-blur-md p-3.5 rounded-xl border border-white/15 shadow-lg">
+                            <i class="fa-solid fa-circle-check text-brandRed-500 text-lg"></i>
+                            <div class="flex flex-col">
+                                <span class="text-white font-extrabold">Aprobación 100%</span>
+                                <span class="text-[10px] text-slate-400 font-normal">Garantía Contractual</span>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 bg-slate-900/80 backdrop-blur-md p-3.5 rounded-xl border border-white/15 shadow-lg">
+                            <i class="fa-solid fa-globe text-sky-400 text-lg"></i>
+                            <div class="flex flex-col">
+                                <span class="text-white font-extrabold">Respaldo UAF & IAF</span>
+                                <span class="text-[10px] text-slate-400 font-normal">Convenio Internacional</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="#contacto" class="w-full sm:w-auto bg-gradient-to-r from-brandRed-600 to-brandRed-700 hover:from-brandRed-700 hover:to-brandRed-800 text-white font-extrabold px-8 py-4 rounded-xl shadow-lg hover:shadow-glow-red transition-all transform hover:-translate-y-1 text-center flex items-center justify-center gap-3">
+                            <span>Solicitar Diagnóstico GAP Gratuito</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                        <a href="#normas" class="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white font-bold px-7 py-4 rounded-xl border border-white/20 backdrop-blur-md transition-all text-center flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-list-check text-sky-400"></i>
+                            <span>Ver Catálogo de Normas</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Columna Derecha: Dashboard ISO -->
+                <div class="lg:col-span-5">
+                    <div class="bg-slate-900/90 border border-white/20 rounded-2xl p-6 shadow-2xl backdrop-blur-xl relative overflow-hidden space-y-4">
+                        
+                        <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-brandBlue-700 flex items-center justify-center text-white shadow-md">
+                                    <i class="fa-solid fa-file-contract text-lg"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xs font-black text-white uppercase tracking-wider">Sistemas ISO Acreditados</h3>
+                                    <span class="text-[10px] text-sky-400 font-semibold">Respaldo IAF & UAF</span>
+                                </div>
+                            </div>
+                            <span class="bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[10px] font-extrabold px-2.5 py-1 rounded-full flex items-center gap-1.5">
+                                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                                Vigente 2026
+                            </span>
+                        </div>
+
+                        <!-- Lista de Normas ISO -->
+                        <div class="space-y-2 text-xs">
+                            <div class="bg-slate-950/70 p-2.5 rounded-xl border border-brandRed-500/30 flex items-center justify-between">
+                                <div class="flex items-center gap-2.5">
+                                    <span class="w-2 h-2 rounded-full bg-brandRed-500"></span>
+                                    <div>
+                                        <strong class="text-white font-extrabold block text-xs">ISO 37001: 2025</strong>
+                                        <span class="text-[10px] text-slate-400">Sistema de Gestión Antisoborno</span>
+                                    </div>
+                                </div>
+                                <span class="text-[9px] bg-brandRed-600/30 text-rose-300 font-bold px-2 py-0.5 rounded">Antisoborno</span>
+                            </div>
+
+                            <div class="bg-slate-950/70 p-2.5 rounded-xl border border-brandBlue-500/30 flex items-center justify-between">
+                                <div class="flex items-center gap-2.5">
+                                    <span class="w-2 h-2 rounded-full bg-sky-400"></span>
+                                    <div>
+                                        <strong class="text-white font-extrabold block text-xs">ISO 9001:2015</strong>
+                                        <span class="text-[10px] text-slate-400">Gestión de la Calidad</span>
+                                    </div>
+                                </div>
+                                <span class="text-[9px] bg-sky-500/20 text-sky-300 font-bold px-2 py-0.5 rounded">Calidad</span>
+                            </div>
+
+                            <div class="bg-slate-950/70 p-2.5 rounded-xl border border-emerald-500/30 flex items-center justify-between">
+                                <div class="flex items-center gap-2.5">
+                                    <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                                    <div>
+                                        <strong class="text-white font-extrabold block text-xs">ISO 14001:2015</strong>
+                                        <span class="text-[10px] text-slate-400">Gestión Ambiental</span>
+                                    </div>
+                                </div>
+                                <span class="text-[9px] bg-emerald-500/20 text-emerald-300 font-bold px-2 py-0.5 rounded">Ambiente</span>
+                            </div>
+
+                            <div class="bg-slate-950/70 p-2.5 rounded-xl border border-amber-500/30 flex items-center justify-between">
+                                <div class="flex items-center gap-2.5">
+                                    <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+                                    <div>
+                                        <strong class="text-white font-extrabold block text-xs">ISO 45001:2018</strong>
+                                        <span class="text-[10px] text-slate-400">Seguridad y Salud en el Trabajo</span>
+                                    </div>
+                                </div>
+                                <span class="text-[9px] bg-amber-500/20 text-amber-300 font-bold px-2 py-0.5 rounded">SST</span>
+                            </div>
+
+                            <div class="bg-slate-950/70 p-2.5 rounded-xl border border-indigo-500/30 flex items-center justify-between">
+                                <div class="flex items-center gap-2.5">
+                                    <span class="w-2 h-2 rounded-full bg-indigo-400"></span>
+                                    <div>
+                                        <strong class="text-white font-extrabold block text-xs">ISO 27001:2022</strong>
+                                        <span class="text-[10px] text-slate-400">Seguridad de la Información</span>
+                                    </div>
+                                </div>
+                                <span class="text-[9px] bg-indigo-500/20 text-indigo-300 font-bold px-2 py-0.5 rounded">Ciberseguridad</span>
+                            </div>
+
+                            <div class="bg-slate-950/70 p-2.5 rounded-xl border border-green-500/30 flex items-center justify-between">
+                                <div class="flex items-center gap-2.5">
+                                    <span class="w-2 h-2 rounded-full bg-green-500"></span>
+                                    <div>
+                                        <strong class="text-white font-extrabold block text-xs">ISO 22000:2018</strong>
+                                        <span class="text-[10px] text-slate-400">Inocuidad Alimentaria</span>
+                                    </div>
+                                </div>
+                                <span class="text-[9px] bg-green-500/20 text-green-300 font-bold px-2 py-0.5 rounded">Alimentos</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-brandBlue-800 to-brandBlue-900 border border-brandBlue-600/50 p-3 rounded-xl text-center flex items-center justify-between">
+                            <div class="text-left">
+                                <span class="text-[10px] text-sky-200 block font-semibold uppercase">Certificación Internacional</span>
+                                <strong class="text-xs text-white font-extrabold">Acreditación IAF & UAF</strong>
+                            </div>
+                            <i class="fa-solid fa-award text-amber-400 text-2xl"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SOBRE NOSOTROS -->
+    <section id="nosotros" class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-12 gap-10 items-center">
+                <div class="md:col-span-6 space-y-4">
+                    <span class="text-brandBlue-700 font-extrabold text-xs tracking-widest uppercase bg-brandBlue-50 border border-brandBlue-200 px-3.5 py-1.5 rounded-full">
+                        Sobre INSPRODE ISO CONSULTING
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-black text-slate-900 leading-snug">
+                        Empresa peruana especializada en la consultoría e implementación de certificaciones ISO
+                    </h2>
+                    <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                        En <strong>INSPRODE ISO CONSULTING</strong> impulsamos el crecimiento y la reputación empresarial en el Perú. Brindamos asesoría técnica integral para lograr homologaciones y certificaciones internacionales con total efectividad.
+                    </p>
+                    <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                        Contamos con <strong>convenio y respaldo internacional</strong> con organismos acreditadores líderes como el <strong>IAF (International Accreditation Forum)</strong> y la <strong>UAF (United Accreditation Foundation)</strong>, garantizando que los certificados emitidos cuenten con validez global para licitaciones públicas y privadas.
+                    </p>
+                    <div class="pt-2 flex flex-wrap gap-4">
+                        <div class="flex items-center gap-2 font-bold text-xs text-slate-800">
+                            <i class="fa-solid fa-flag text-brandRed-600"></i>
+                            <span>Empresa 100% Peruana</span>
+                        </div>
+                        <div class="flex items-center gap-2 font-bold text-xs text-slate-800">
+                            <i class="fa-solid fa-earth-americas text-brandBlue-600"></i>
+                            <span>Acreditación Internacional IAF & UAF</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:col-span-6">
+                    <div class="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 group">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80" 
+                             alt="Equipo de INSPRODE ISO CONSULTING" 
+                             class="w-full h-72 sm:h-80 object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-6">
+                            <div class="text-white">
+                                <span class="text-amber-400 font-extrabold text-xs block">Liderazgo & Calidad</span>
+                                <p class="text-xs text-slate-200">Impulsamos la excelencia operacional de empresas peruanas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Acreditaciones IAF & UAF -->
+    <section id="alianzas" class="py-12 bg-silver-100 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-xs font-black uppercase tracking-widest text-slate-500 mb-8">
+                Respaldados por organismos internacionales de acreditación
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center justify-items-center max-w-3xl mx-auto">
+                <div class="bg-white border border-slate-200 hover:border-brandBlue-500 p-6 rounded-2xl w-full flex flex-col items-center justify-center transition-all shadow-sm group hover:-translate-y-1">
+                    <div class="w-16 h-16 rounded-full bg-brandBlue-50 flex items-center justify-center mb-3 border border-brandBlue-200 group-hover:scale-110 transition-transform">
+                        <svg viewBox="0 0 100 100" class="w-12 h-12">
+                            <ellipse cx="50" cy="50" rx="45" ry="30" fill="#1D4ED8" stroke="#FFFFFF" stroke-width="2"/>
+                            <circle cx="50" cy="50" r="25" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="2,2"/>
+                            <text x="50" y="56" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="900" font-family="sans-serif">IAF</text>
+                        </svg>
+                    </div>
+                    <span class="font-extrabold text-slate-900 text-xs text-center">IAF ACCREDITED</span>
+                    <span class="text-[10px] text-slate-500 text-center">International Accreditation Forum</span>
+                </div>
+
+                <div class="bg-white border border-slate-200 hover:border-brandBlue-500 p-6 rounded-2xl w-full flex flex-col items-center justify-center transition-all shadow-sm group hover:-translate-y-1">
+                    <div class="w-16 h-16 rounded-full bg-slate-900 flex items-center justify-center mb-3 border border-slate-700 group-hover:scale-110 transition-transform">
+                        <span class="text-sky-400 font-black text-xl tracking-tighter">UAF</span>
+                    </div>
+                    <span class="font-extrabold text-slate-900 text-xs text-center">UAF ACCREDITED</span>
+                    <span class="text-[10px] text-slate-500 text-center">United Accreditation Foundation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catálogo de Normas ISO Actualizado (6 Normas + SIG) -->
+    <section id="normas" class="py-20 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-brandBlue-700 font-extrabold text-xs tracking-widest uppercase bg-brandBlue-50 border border-brandBlue-200 px-3.5 py-1.5 rounded-full">
+                    Catálogo Completo de Certificaciones ISO
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-3">Sistemas de Gestión ISO que Implementamos</h2>
+                <p class="text-slate-600 text-sm sm:text-base mt-2">
+                    Seleccione la norma de su interés para visualizar la información detallada y beneficios.
+                </p>
+
+                <!-- Filtros Interactivos -->
+                <div class="flex flex-wrap items-center justify-center gap-2 mt-6" id="filter-tabs">
+                    <button onclick="filterIsoCards('all', event)" class="tab-btn active bg-brandBlue-600 text-white font-bold text-xs px-4 py-2 rounded-lg transition-all shadow-sm">
+                        Todas las Normas
+                    </button>
+                    <button onclick="filterIsoCards('antisoborno', event)" class="tab-btn bg-silver-100 hover:bg-slate-200 text-slate-700 font-bold text-xs px-4 py-2 rounded-lg transition-all">
+                        Antisoborno
+                    </button>
+                    <button onclick="filterIsoCards('calidad', event)" class="tab-btn bg-silver-100 hover:bg-slate-200 text-slate-700 font-bold text-xs px-4 py-2 rounded-lg transition-all">
+                        Calidad & Inocuidad
+                    </button>
+                    <button onclick="filterIsoCards('sst-ambiente', event)" class="tab-btn bg-silver-100 hover:bg-slate-200 text-slate-700 font-bold text-xs px-4 py-2 rounded-lg transition-all">
+                        SST & Medio Ambiente
+                    </button>
+                    <button onclick="filterIsoCards('tecnologia', event)" class="tab-btn bg-silver-100 hover:bg-slate-200 text-slate-700 font-bold text-xs px-4 py-2 rounded-lg transition-all">
+                        Seguridad Información
+                    </button>
+                </div>
+            </div>
+
+            <!-- Grilla de Tarjetas ISO -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- 1. ISO 37001: 2025 -->
+                <div class="iso-card antisoborno gradient-card rounded-2xl border border-slate-200 overflow-hidden flex flex-col justify-between shadow-sm border-t-4 border-t-brandRed-600">
+                    <div>
+                        <div class="h-52 overflow-hidden relative group bg-slate-100">
+                            <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=800&q=80"
+                                 alt="ISO 37001: 2025 SISTEMA DE GESTIÓN ANTISOBORNO" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            
+                            <span class="absolute top-3 left-3 bg-brandRed-600 text-white font-black text-xs px-3 py-1 rounded-md shadow-md">
+                                ISO 37001: 2025
+                            </span>
+                            <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-md text-slate-900 font-bold text-[10px] px-2.5 py-1 rounded-md shadow-sm">
+                                Licitaciones & Cumplimiento
+                            </span>
+                        </div>
+
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-1">
+                                <h3 class="text-lg font-black text-slate-900">CERTIFICACIÓN ISO 37001: 2025</h3>
+                            </div>
+                            <h4 class="text-xs font-extrabold text-brandRed-600 uppercase tracking-wider mb-3">SISTEMA DE GESTIÓN ANTISOBORNO</h4>
+
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                                Fortalezca la integridad y transparencia de su organización mediante la certificación del Sistema de Gestión Antisoborno ISO 37001: 2025, promoviendo una cultura de cumplimiento, ética y confianza.
+                            </p>
+
+                            <div class="bg-silver-50 p-3 rounded-xl border border-slate-200/80 mb-5 space-y-2">
+                                <span class="text-[11px] font-bold text-slate-800 block">Beneficios de la Certificación:</span>
+                                <ul class="space-y-1.5 text-xs text-slate-700">
+                                    <li class="flex items-start gap-2">
+                                        <i class="fa-solid fa-shield-check text-brandRed-600 mt-0.5"></i>
+                                        <span>Previene el soborno y la corrupción.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fa-solid fa-scale-balanced text-brandRed-600 mt-0.5"></i>
+                                        <span>Cumple con los requisitos legales y normativos.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fa-solid fa-handshake-simple text-brandRed-600 mt-0.5"></i>
+                                        <span>Mejora la reputación y la confianza empresarial.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 pt-0 flex gap-2">
+                        <button onclick="openModalIso('CERTIFICACIÓN ISO 37001: 2025', 'SISTEMA DE GESTIÓN ANTISOBORNO', 'Fortalezca la integridad y transparencia de su organización mediante la certificación del Sistema de Gestión Antisoborno ISO 37001: 2025, promoviendo una cultura de cumplimiento, ética y confianza.\n\n✓ Previene el soborno y la corrupción.\n✓ Cumple con los requisitos legales y normativos.\n✓ Mejora la reputación y la confianza empresarial.')" class="w-1/2 bg-silver-100 hover:bg-slate-200 text-slate-800 py-3 rounded-xl text-xs font-bold transition-colors">
+                            Ver Detalles
+                        </button>
+                        <a href="#contacto" onclick="selectNormaInForm('ISO 37001: 2025 (Antisoborno)')" class="w-1/2 text-center bg-brandRed-600 hover:bg-brandRed-700 text-white py-3 rounded-xl text-xs font-bold transition-colors shadow-sm flex items-center justify-center">
+                            Cotizar Ahora
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 2. ISO 9001:2015 -->
+                <div class="iso-card calidad gradient-card rounded-2xl border border-slate-200 overflow-hidden flex flex-col justify-between shadow-sm border-t-4 border-t-brandBlue-600">
+                    <div>
+                        <div class="h-52 overflow-hidden relative group bg-slate-100">
+                            <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80"
+                                 alt="ISO 9001:2015 SISTEMA DE GESTIÓN DE LA CALIDAD" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            
+                            <span class="absolute top-3 left-3 bg-brandBlue-600 text-white font-black text-xs px-3 py-1 rounded-md shadow-md">
+                                ISO 9001:2015
+                            </span>
+                        </div>
+
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-1">
+                                <h3 class="text-lg font-black text-slate-900">CERTIFICACIÓN ISO 9001:2015</h3>
+                            </div>
+                            <h4 class="text-xs font-extrabold text-brandBlue-600 uppercase tracking-wider mb-3">SISTEMA DE GESTIÓN DE LA CALIDAD</h4>
+
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                                Fortalezca la competitividad de su organización mediante un Sistema de Gestión de la Calidad basado en estándares internacionales. La certificación ISO 9001:2015 optimiza los procesos, incrementa la satisfacción del cliente, mejora el desempeño organizacional y promueve la mejora continua.
+                            </p>
+
+                            <div class="bg-silver-50 p-3 rounded-xl border border-slate-200/80 mb-5 space-y-2">
+                                <span class="text-[11px] font-bold text-slate-800 block">Beneficios de la Certificación:</span>
+                                <ul class="space-y-1.5 text-xs text-slate-700">
+                                    <li class="flex items-start gap-2">
+                                        <i class="fa-solid fa-check text-brandBlue-600 mt-0.5"></i>
+                                        <span>Optimización de procesos operacionales.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fa-solid fa-check text-brandBlue-600 mt-0.5"></i>
+                                        <span>Incremento de la satisfacción del cliente.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fa-solid fa-check text-brandBlue-600 mt-0.5"></i>
+                                        <span>Mejora continua del desempeño organizacional.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 pt-0 flex gap-2">
+                        <button onclick="openModalIso('CERTIFICACIÓN ISO 9001:2015', 'SISTEMA DE GESTIÓN DE LA CALIDAD', 'Fortalezca la competitividad de su organización mediante un Sistema de Gestión de la Calidad basado en estándares internacionales.\n\nLa certificación ISO 9001:2015 optimiza los procesos, incrementa la satisfacción del cliente, mejora el desempeño organizacional y promueve la mejora continua.')" class="w-1/2 bg-silver-100 hover:bg-slate-200 text-slate-800 py-3 rounded-xl text-xs font-bold transition-colors">
+                            Ver Detalles
+                        </button>
+                        <a href="#contacto" onclick="selectNormaInForm('ISO 9001:2015 (Calidad)')" class="w-1/2 text-center bg-brandBlue-600 hover:bg-brandBlue-700 text-white py-3 rounded-xl text-xs font-bold transition-colors shadow-sm flex items-center justify-center">
+                            Cotizar Ahora
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 3. ISO 14001:2015 -->
+                <div class="iso-card sst-ambiente gradient-card rounded-2xl border border-slate-200 overflow-hidden flex flex-col justify-between shadow-sm border-t-4 border-t-emerald-600">
+                    <div>
+                        <div class="h-52 overflow-hidden relative group bg-slate-100">
+                            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+                                 alt="ISO 14001:2015 SISTEMA DE GESTIÓN AMBIENTAL" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            
+                            <span class="absolute top-3 left-3 bg-emerald-700 text-white font-black text-xs px-3 py-1 rounded-md shadow-md">
+                                ISO 14001:2015
+                            </span>
+                        </div>
+
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-1">
+                                <h3 class="text-lg font-black text-slate-900">CERTIFICACIÓN ISO 14001:2015</h3>
+                            </div>
+                            <h4 class="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-3">SISTEMA DE GESTIÓN AMBIENTAL</h4>
+
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                                Demuestre el compromiso de su organización con la protección del medio ambiente, el cumplimiento normativo y la mejora continua. Fortalezca su competitividad y genere confianza con una certificación de reconocimiento internacional.
+                            </p>
+
+                            <div class="bg-silver-50 p-3 rounded-xl border border-slate-200/80 mb-5 space-y-2">
+                                <span class="text-[11px] font-bold text-slate-800 block">Beneficios de la Certificación:</span>
+                                <ul class="space-y-1.5 text-xs text-slate-700">
+                                    <li class="flex items-start gap-2">
+                                        <i class="fa-solid fa-leaf text-emerald-600 mt-0.5"></i>
+                                        <span>Protección efectiva del medio ambiente.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fa-solid fa-check text-emerald-600 mt-0.5"></i>
+                                        <span>Garantiza el estricto cumplimiento normativo.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fa-solid fa-globe text-emerald-600 mt-0.5"></i>
+                                        <span>Certificación con reconocimiento internacional.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 pt-0 flex gap-2">
+                        <button onclick="openModalIso('CERTIFICACIÓN ISO 14001:2015', 'SISTEMA DE GESTIÓN AMBIENTAL', 'Demuestre el compromiso de su organización con la protección del medio ambiente, el cumplimiento normativo y la mejora continua.\n\nFortalezca su competitividad y genere confianza con una certificación de reconocimiento internacional.')" class="w-1/2 bg-silver-100 hover:bg-slate-200 text-slate-800 py-3 rounded-xl text-xs font-bold transition-colors">
+                            Ver Detalles
+                        </button>
+                        <a href="#contacto" onclick="selectNormaInForm('ISO 14001:2015 (Gestión Ambiental)')" class="w-1/2 text-center bg-slate-900 hover:bg-slate-800 text-white py-3 rounded-xl text-xs font-bold transition-colors shadow-sm flex items-center justify-center">
+                            Cotizar Ahora
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 4. ISO 45001:2018 -->
+                <div class="iso-card sst-ambiente gradient-card rounded-2xl border border-slate-200 overflow-hidden flex flex-col justify-between shadow-sm border-t-4 border-t-amber-500">
+                    <div>
+                        <div class="h-52 overflow-hidden relative group bg-slate-100">
+                            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
+                                 alt="ISO 45001:2018 Seguridad y Salud en el Trabajo" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            
+                            <span class="absolute top-3 left-3 bg-amber-600 text-white font-black text-xs px-3 py-1 rounded-md shadow-md">
+                                ISO 45001:2018
+                            </span>
+                        </div>
+
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-1">
+                                <h3 class="text-lg font-black text-slate-900">CERTIFICACIÓN ISO 45001:2018</h3>
+                            </div>
+                            <h4 class="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-3">SISTEMA DE GESTIÓN DE LA SEGURIDAD Y SALUD EN EL TRABAJO</h4>
+
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                                Proteja a su organización implementando un Sistema de Gestión de Seguridad y Salud en el Trabajo conforme a la Norma ISO 45001:2018. Prevenga accidentes, reduzca riesgos laborales, fortalezca el cumplimiento legal y promueva una cultura de trabajo segura y saludable.
+                            </p>
+
+                            <div class="bg-silver-50 p-3 rounded-xl border border-slate-200/80 mb-5 space-y-2">
+                                <span class="text-[11px] font-bold text-slate-800 block">Beneficios de la Certificación:</span>
+                                <ul class="space-y-1.5 text-xs text-slate-700">
+                                    <li class="flex items-start gap-2">
+                                        <i class="fa-solid fa-user-shield text-amber-600 mt-0.5"></i>
+                                        <span>Prevención de accidentes y riesgos laborales.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fa-solid fa-file-contract text-amber-600 mt-0.5"></i>
+                                        <span>Fortalecimiento del cumplimiento legal en SST.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fa-solid fa-heart-pulse text-amber-600 mt-0.5"></i>
+                                        <span>Cultura laboral segura y entorno saludable.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 pt-0 flex gap-2">
+                        <button onclick="openModalIso('CERTIFICACIÓN ISO 45001:2018', 'SEGURIDAD Y SALUD EN EL TRABAJO', 'Proteja a su organización implementando un Sistema de Gestión de Seguridad y Salud en el Trabajo conforme a la Norma ISO 45001:2018.\n\nPrevenga accidentes, reduzca riesgos laborales, fortalezca el cumplimiento legal y promueva una cultura de trabajo segura y saludable.')" class="w-1/2 bg-silver-100 hover:bg-slate-200 text-slate-800 py-3 rounded-xl text-xs font-bold transition-colors">
+                            Ver Detalles
+                        </button>
+                        <a href="#contacto" onclick="selectNormaInForm('ISO 45001:2018 (Seguridad SST)')" class="w-1/2 text-center bg-slate-900 hover:bg-slate-800 text-white py-3 rounded-xl text-xs font-bold transition-colors shadow-sm flex items-center justify-center">
+                            Cotizar Ahora
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 5. ISO 27001:2022 -->
+                <div class="iso-card tecnologia gradient-card rounded-2xl border border-slate-200 overflow-hidden flex flex-col justify-between shadow-sm border-t-4 border-t-indigo-600">
+                    <div>
+                        <div class="h-52 overflow-hidden relative group bg-slate-100">
+                            <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80"
+                                 alt="ISO 27001:2022 SEGURIDAD DE LA INFORMACIÓN" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            
+                            <span class="absolute top-3 left-3 bg-indigo-700 text-white font-black text-xs px-3 py-1 rounded-md shadow-md">
+                                ISO 27001:2022
+                            </span>
+                        </div>
+
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-1">
+                                <h3 class="text-lg font-black text-slate-900">ISO 27001:2022</h3>
+                            </div>
+                            <h4 class="text-xs font-extrabold text-indigo-700 uppercase tracking-wider mb-3">SISTEMA DE GESTIÓN DE SEGURIDAD DE LA INFORMACIÓN</h4>
+
+                            <div class="space-y-2 text-xs text-slate-700 mb-5">
+                                <div class="flex items-start gap-2">
+                                    <span>🔐</span>
+                                    <span>Protege la información crítica de tu organización.</span>
+                                </div>
+                                <div class="flex items-start gap-2">
+                                    <span>🛡️</span>
+                                    <span>Gestiona y reduce los riesgos de seguridad de la información.</span>
+                                </div>
+                                <div class="flex items-start gap-2">
+                                    <span>📊</span>
+                                    <span>Fortalece la confidencialidad, integridad y disponibilidad de los datos.</span>
+                                </div>
+                                <div class="flex items-start gap-2">
+                                    <span>💻</span>
+                                    <span>Mejora la gestión frente a amenazas e incidentes de seguridad.</span>
+                                </div>
+                                <div class="flex items-start gap-2">
+                                    <span>🤝</span>
+                                    <span>Genera confianza en clientes, proveedores y partes interesadas.</span>
+                                </div>
+                                <div class="flex items-start gap-2">
+                                    <span>🌐</span>
+                                    <span>Demuestra el compromiso con estándares internacionales.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 pt-0 flex gap-2">
+                        <button onclick="openModalIso('ISO 27001:2022', 'SISTEMA DE GESTIÓN DE SEGURIDAD DE LA INFORMACIÓN', '🔐 Protege la información crítica de tu organización.\n🛡️ Gestiona y reduce los riesgos de seguridad de la información.\n📊 Fortalece la confidencialidad, integridad y disponibilidad de los datos.\n💻 Mejora la gestión frente a amenazas e incidentes de seguridad.\n🤝 Genera confianza en clientes, proveedores y partes interesadas.\n🌐 Demuestra el compromiso de tu organización con estándares internacionales.')" class="w-1/2 bg-silver-100 hover:bg-slate-200 text-slate-800 py-3 rounded-xl text-xs font-bold transition-colors">
+                            Ver Detalles
+                        </button>
+                        <a href="#contacto" onclick="selectNormaInForm('ISO 27001:2022 (Seguridad Información)')" class="w-1/2 text-center bg-indigo-600 hover:bg-indigo-700 text-white py-3 rounded-xl text-xs font-bold transition-colors shadow-sm flex items-center justify-center">
+                            Cotizar Ahora
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 6. ISO 22000:2018 -->
+                <div class="iso-card calidad gradient-card rounded-2xl border border-slate-200 overflow-hidden flex flex-col justify-between shadow-sm border-t-4 border-t-emerald-500">
+                    <div>
+                        <div class="h-52 overflow-hidden relative group bg-slate-100">
+                            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80"
+                                 alt="CERTIFICACIÓN ISO 22000:2018 SISTEMA DE GESTIÓN DE LA INOCUIDAD ALIMENTARIA" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            
+                            <span class="absolute top-3 left-3 bg-emerald-600 text-white font-black text-xs px-3 py-1 rounded-md shadow-md">
+                                ISO 22000:2018
+                            </span>
+                            <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-md text-emerald-800 font-bold text-[10px] px-2.5 py-1 rounded-md shadow-sm">
+                                Sector Alimentario
+                            </span>
+                        </div>
+
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-1">
+                                <h3 class="text-lg font-black text-slate-900">CERTIFICACIÓN ISO 22000:2018</h3>
+                            </div>
+                            <h4 class="text-xs font-extrabold text-emerald-600 uppercase tracking-wider mb-3">SISTEMA DE GESTIÓN DE LA INOCUIDAD ALIMENTARIA</h4>
+
+                            <div class="space-y-1.5 text-xs text-slate-700 mb-4">
+                                <div class="flex items-start gap-2">
+                                    <span>🛡️</span>
+                                    <span>Garantiza alimentos seguros mediante estándares internacionales.</span>
+                                </div>
+                                <div class="flex items-start gap-2">
+                                    <span>🔬</span>
+                                    <span>Controla los riesgos que pueden afectar la inocuidad alimentaria.</span>
+                                </div>
+                                <div class="flex items-start gap-2">
+                                    <span>⚙️</span>
+                                    <span>Optimiza los procesos en toda la cadena alimentaria.</span>
+                                </div>
+                                <div class="flex items-start gap-2">
+                                    <span>🥗</span>
+                                    <span>Fortalece la seguridad y calidad de los alimentos.</span>
+                                </div>
+                                <div class="flex items-start gap-2">
+                                    <span>🤝</span>
+                                    <span>Genera confianza en clientes y consumidores.</span>
+                                </div>
+                                <div class="flex items-start gap-2">
+                                    <span>📋</span>
+                                    <span>Mejora el control operacional y la eficiencia empresarial.</span>
+                                </div>
+                                <div class="flex items-start gap-2">
+                                    <span>🌎</span>
+                                    <span>Impulsa la competitividad y facilita acceso a nuevos mercados.</span>
+                                </div>
+                                <div class="flex items-start gap-2">
+                                    <span>🏆</span>
+                                    <span>Fortalece la reputación y el crecimiento sostenible.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 pt-0 flex gap-2">
+                        <button onclick="openModalIso('CERTIFICACIÓN ISO 22000:2018', 'SISTEMA DE GESTIÓN DE LA INOCUIDAD ALIMENTARIA', '🛡️ Garantiza alimentos seguros mediante estándares internacionales.\n🔬 Controla los riesgos que pueden afectar la inocuidad alimentaria.\n⚙️ Optimiza los procesos en toda la cadena alimentaria.\n🥗 Fortalece la seguridad y calidad de los alimentos.\n🤝 Genera confianza en clientes y consumidores.\n📋 Mejora el control operacional y la eficiencia empresarial.\n🌎 Impulsa la competitividad y facilita el acceso a nuevos mercados.\n🏆 Fortalece la reputación y el crecimiento sostenible de la organización.')" class="w-1/2 bg-silver-100 hover:bg-slate-200 text-slate-800 py-3 rounded-xl text-xs font-bold transition-colors">
+                            Ver Detalles
+                        </button>
+                        <a href="#contacto" onclick="selectNormaInForm('ISO 22000:2018 (Inocuidad Alimentaria)')" class="w-1/2 text-center bg-emerald-600 hover:bg-emerald-700 text-white py-3 rounded-xl text-xs font-bold transition-colors shadow-sm flex items-center justify-center">
+                            Cotizar Ahora
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 7. Sistema Integrado SIG (Card Combinada) -->
+                <div class="iso-card calidad antisoborno sst-ambiente tecnologia gradient-card rounded-2xl border border-slate-200 overflow-hidden flex flex-col justify-between shadow-sm border-t-4 border-t-brandBlue-800 md:col-span-2 lg:col-span-3">
+                    <div class="bg-gradient-to-r from-brandBlue-900 via-brandBlue-800 to-slate-900 text-white p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+                        <div class="space-y-3 max-w-2xl text-center md:text-left">
+                            <span class="bg-brandRed-600 text-white text-[10px] font-extrabold uppercase px-3 py-1 rounded-full inline-block">Súper Ahorro Multi-norma</span>
+                            <h3 class="text-2xl font-black">Sistema Integrado de Gestión (SIG)</h3>
+                            <p class="text-xs text-slate-300 leading-relaxed">
+                                Unifique sus auditorías e implementación en una sola estructura documental interactiva. Integre ISO 9001, 14001, 45001, 37001, 27001 y 22000 logrando hasta un 40% de ahorro en costos operacionales y de auditoría.
+                            </p>
+                        </div>
+                        <div class="shrink-0 w-full md:w-auto">
+                            <a href="#contacto" onclick="selectNormaInForm('Sistema Integrado SIG (Multinorma)')" class="block text-center bg-brandRed-600 hover:bg-brandRed-700 text-white px-8 py-4 rounded-xl text-xs font-black transition-all shadow-lg hover:shadow-glow-red">
+                                Cotizar Sistema Integrado SIG
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Metodología 5 Pasos -->
+    <section id="metodologia" class="py-20 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brandBlue-700 font-extrabold text-xs tracking-widest uppercase bg-brandBlue-50 border border-brandBlue-200 px-3.5 py-1.5 rounded-full">
+                    Metodología de Éxito Probado
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-3">Proceso de Acompañamiento en 5 Pasos</h2>
+                <p class="text-slate-600 text-sm mt-2">
+                    Sin interrumpir la operación continua de su empresa. Nosotros asumimos el desarrollo técnico pesado.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-5 gap-4">
+                <div class="bg-silver-50 border border-slate-200 rounded-2xl p-6 flex flex-col justify-between hover:border-brandBlue-500 hover:bg-white transition-all shadow-sm">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-brandBlue-600 text-white font-extrabold flex items-center justify-center text-sm mb-4 shadow-md">01</div>
+                        <h3 class="font-bold text-slate-900 text-base mb-2">Diagnóstico GAP</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">Evaluación del estado actual frente a los requisitos exigidos por la norma ISO.</p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-200 text-[10px] text-brandBlue-700 font-bold uppercase">Fase Inicial</div>
+                </div>
+
+                <div class="bg-silver-50 border border-slate-200 rounded-2xl p-6 flex flex-col justify-between hover:border-brandBlue-500 hover:bg-white transition-all shadow-sm">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-brandBlue-600 text-white font-extrabold flex items-center justify-center text-sm mb-4 shadow-md">02</div>
+                        <h3 class="font-bold text-slate-900 text-base mb-2">Diseño Ágil</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">Creación de procedimientos y matrices ajustadas al tamaño real de su empresa.</p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-200 text-[10px] text-brandBlue-700 font-bold uppercase">Fase Documental</div>
+                </div>
+
+                <div class="bg-silver-50 border border-slate-200 rounded-2xl p-6 flex flex-col justify-between hover:border-brandBlue-500 hover:bg-white transition-all shadow-sm">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-brandBlue-600 text-white font-extrabold flex items-center justify-center text-sm mb-4 shadow-md">03</div>
+                        <h3 class="font-bold text-slate-900 text-base mb-2">Capacitación</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">Sensibilización del personal y formación práctica en el uso del sistema.</p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-200 text-[10px] text-brandBlue-700 font-bold uppercase">Fase Operativa</div>
+                </div>
+
+                <div class="bg-silver-50 border border-slate-200 rounded-2xl p-6 flex flex-col justify-between hover:border-brandBlue-500 hover:bg-white transition-all shadow-sm">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-brandBlue-600 text-white font-extrabold flex items-center justify-center text-sm mb-4 shadow-md">04</div>
+                        <h3 class="font-bold text-slate-900 text-base mb-2">Auditoría Interna</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">Simulación rigurosa para corregir cualquier desviación previo al examen externo.</p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-200 text-[10px] text-brandBlue-700 font-bold uppercase">Fase Control</div>
+                </div>
+
+                <div class="bg-gradient-to-b from-brandRed-600 to-brandRed-700 text-white rounded-2xl p-6 flex flex-col justify-between shadow-lg shadow-glow-red">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-white text-brandRed-600 font-extrabold flex items-center justify-center text-sm mb-4 shadow-md">05</div>
+                        <h3 class="font-bold text-white text-base mb-2">Acompañamiento</h3>
+                        <p class="text-xs text-slate-100 leading-relaxed">Presencia en vivo durante la auditoría externa hasta recibir la Certificación ISO.</p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-brandRed-500 text-[10px] text-white font-extrabold uppercase">¡Certificado Emitido!</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 bg-silver-50 border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-brandRed-600 font-extrabold text-xs tracking-widest uppercase bg-rose-50 border border-rose-200 px-3 py-1 rounded-full">
+                    Resolución de Inquietudes
+                </span>
+                <h2 class="text-3xl font-black text-slate-900 mt-3">Preguntas Frecuentes de Gerencia</h2>
+            </div>
+
+            <div class="space-y-4">
+                <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
+                    <button class="w-full text-left p-5 font-bold text-slate-900 text-sm flex justify-between items-center hover:bg-slate-50 transition-colors" onclick="toggleFAQ(this)">
+                        <span>¿Cuánto tiempo requiere el personal de nuestra empresa para implementar una norma ISO?</span>
+                        <i class="fa-solid fa-chevron-down text-xs text-slate-400 transition-transform"></i>
+                    </button>
+                    <div class="hidden p-5 text-xs text-slate-600 leading-relaxed border-t border-slate-100 bg-silver-50">
+                        Nuestra metodología solo requiere de 2 a 3 horas semanales del equipo clave. INSPRODE ISO CONSULTING asume la redacción técnica completa para evitar interrumpir las labores diarias.
+                    </div>
+                </div>
+
+                <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
+                    <button class="w-full text-left p-5 font-bold text-slate-900 text-sm flex justify-between items-center hover:bg-slate-50 transition-colors" onclick="toggleFAQ(this)">
+                        <span>¿Qué validez internacional tienen los certificados emitidos?</span>
+                        <i class="fa-solid fa-chevron-down text-xs text-slate-400 transition-transform"></i>
+                    </button>
+                    <div class="hidden p-5 text-xs text-slate-600 leading-relaxed border-t border-slate-100 bg-silver-50">
+                        Los certificados son respaldados por organismos de acreditación internacional como IAF y UAF, garantizando reconocimiento pleno en concursos públicos, homologaciones y exportaciones.
+                    </div>
+                </div>
+
+                <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
+                    <button class="w-full text-left p-5 font-bold text-slate-900 text-sm flex justify-between items-center hover:bg-slate-50 transition-colors" onclick="toggleFAQ(this)">
+                        <span>¿Qué sucede si surgen observaciones durante la auditoría externa?</span>
+                        <i class="fa-solid fa-chevron-down text-xs text-slate-400 transition-transform"></i>
+                    </button>
+                    <div class="hidden p-5 text-xs text-slate-600 leading-relaxed border-t border-slate-100 bg-silver-50">
+                        Por cláusula de garantía contractual, subsanamos y solventamos cualquier no conformidad detectada por el auditor sin cobrar ningún costo ni honorario adicional.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="py-20 bg-slate-900 text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="text-brandRed-500 font-extrabold text-xs tracking-widest uppercase bg-brandRed-500/10 border border-brandRed-500/20 px-3.5 py-1.5 rounded-full">
+                        Atención Prioritaria
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-white leading-tight">
+                        Solicite su Cotización Formal o Diagnóstico GAP
+                    </h2>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Un Consultor Sénior evaluará el perfil de su organización y le enviará una propuesta técnica y económica adaptada a sus metas empresariales.
+                    </p>
+
+                    <div class="space-y-4 pt-4 border-t border-slate-800 text-xs text-slate-300">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center text-amber-400 shrink-0">
+                                <i class="fa-solid fa-location-dot text-base"></i>
+                            </div>
+                            <div>
+                                <span class="block text-slate-400">Oficina Principal:</span>
+                                <strong id="form-address-text" class="text-white text-sm font-bold">Av. Luis González 997 (Ref. Esquina de Lora y Cordero)</strong>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center text-brandRed-500 shrink-0">
+                                <i class="fa-solid fa-phone text-base"></i>
+                            </div>
+                            <div>
+                                <span class="block text-slate-400">Atención Directa / WhatsApp:</span>
+                                <strong id="form-phone-text" class="text-white text-sm font-bold">(+51) 904 483 439</strong>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center text-brandBlue-500 shrink-0">
+                                <i class="fa-solid fa-envelope text-base"></i>
+                            </div>
+                            <div>
+                                <span class="block text-slate-400">Correo Corporativo / Gmail:</span>
+                                <strong id="form-email-text" class="text-white text-sm font-bold">insprodeisoconsultin@gmail.com</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulario -->
+                <div class="lg:col-span-7">
+                    <div class="bg-white text-slate-800 p-8 rounded-2xl shadow-2xl border border-slate-200">
+                        
+                        <!-- Mensaje de éxito directo en página -->
+                        <div id="form-success-alert" class="hidden mb-6 p-4 bg-emerald-50 border border-emerald-300 text-emerald-900 rounded-xl text-xs space-y-1">
+                            <div class="flex items-center gap-2 font-black text-sm text-emerald-700">
+                                <i class="fa-solid fa-circle-check text-base"></i>
+                                <span>¡Solicitud enviada exitosamente!</span>
+                            </div>
+                            <p class="text-slate-700">Gracias por contactarnos. Un consultor se comunicará con usted a la brevedad posible.</p>
+                        </div>
+
+                        <form id="isoForm" class="space-y-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1.5">Nombre y Apellidos *</label>
+                                    <input type="text" name="Nombre" id="form-nombre" required placeholder="Ej. Carlos Mendoza" class="w-full bg-silver-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-800 text-xs focus:outline-none focus:border-brandBlue-600">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1.5">Cargo Empresarial *</label>
+                                    <input type="text" name="Cargo" id="form-cargo" required placeholder="Ej. Gerente General / Dir. HSEQ" class="w-full bg-silver-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-800 text-xs focus:outline-none focus:border-brandBlue-600">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1.5">Correo Corporativo / Gmail *</label>
+                                    <input type="email" name="Email" id="form-email" required placeholder="c.mendoza@empresa.com" class="w-full bg-silver-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-800 text-xs focus:outline-none focus:border-brandBlue-600">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1.5">Teléfono / WhatsApp *</label>
+                                    <input type="tel" name="Telefono" id="form-telefono" required placeholder="+51 904 483 439" class="w-full bg-silver-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-800 text-xs focus:outline-none focus:border-brandBlue-600">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1.5">Nombre de la Empresa *</label>
+                                    <input type="text" name="Empresa" id="form-empresa" required placeholder="Razón Social o Marca" class="w-full bg-silver-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-800 text-xs focus:outline-none focus:border-brandBlue-600">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1.5">Norma Principal *</label>
+                                    <select name="Norma_Interes" id="form-norma-select" class="w-full bg-silver-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-800 text-xs focus:outline-none focus:border-brandBlue-600">
+                                        <option value="ISO 37001: 2025 (Antisoborno)">ISO 37001: 2025 (Gestión Antisoborno)</option>
+                                        <option value="ISO 9001:2015 (Calidad)">ISO 9001:2015 (Gestión de Calidad)</option>
+                                        <option value="ISO 14001:2015 (Ambiente)">ISO 14001:2015 (Gestión Ambiental)</option>
+                                        <option value="ISO 45001:2018 (SST)">ISO 45001:2018 (Seguridad y Salud)</option>
+                                        <option value="ISO 27001:2022 (Seguridad TI)">ISO 27001:2022 (Seguridad Información)</option>
+                                        <option value="ISO 22000:2018 (Inocuidad Alimentaria)">ISO 22000:2018 (Inocuidad Alimentaria)</option>
+                                        <option value="Sistema Integrado SIG (Multinorma)">Sistema Integrado SIG (Multinorma)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1.5">Detalles del Requerimiento</label>
+                                <textarea name="Mensaje" id="form-mensaje" rows="3" placeholder="Indique número de colaboradores, sedes o plazo esperado..." class="w-full bg-silver-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-800 text-xs focus:outline-none focus:border-brandBlue-600"></textarea>
+                            </div>
+
+                            <button type="submit" id="form-submit-btn" class="w-full bg-gradient-to-r from-brandRed-600 to-brandRed-700 hover:from-brandRed-700 hover:to-brandRed-800 text-white font-bold py-4 rounded-xl text-xs shadow-lg hover:shadow-glow-red transition-all flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-paper-plane text-xs"></i>
+                                <span>Enviar Solicitud de Cotización</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Detalles ISO -->
+    <div id="iso-modal" class="fixed inset-0 z-50 hidden bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl relative border border-slate-200 max-h-[90vh] overflow-y-auto">
+            <button onclick="closeModalIso()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-800 text-lg">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div id="modal-content" class="space-y-4">
+                <div>
+                    <span id="modal-subtitle" class="text-[10px] font-black uppercase text-brandRed-600 tracking-wider"></span>
+                    <h3 id="modal-title" class="text-xl font-black text-slate-900 mt-0.5"></h3>
+                </div>
+                <div id="modal-body" class="text-xs text-slate-700 whitespace-pre-line leading-relaxed bg-silver-50 p-4 rounded-xl border border-slate-200"></div>
+                <div class="pt-4 border-t border-slate-200 flex justify-end gap-3">
+                    <button onclick="closeModalIso()" class="bg-silver-100 text-slate-700 text-xs font-bold px-4 py-2.5 rounded-lg">Cerrar</button>
+                    <a href="#contacto" onclick="closeModalIso()" class="bg-brandRed-600 text-white text-xs font-bold px-5 py-2.5 rounded-lg shadow-sm">Solicitar Oferta Formal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 text-xs py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div class="space-y-3">
+                    <span class="text-lg font-black text-white">INSPRODE <span class="text-brandRed-600 text-xs font-bold bg-brandRed-600/20 border border-brandRed-500/30 px-1.5 py-0.5 rounded ml-1">ISO</span></span>
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        Firma peruana especializada en consultoría, formación e implementación de Sistemas de Gestión ISO con garantía contractual de aprobación.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white uppercase text-xs mb-3">Normas ISO</h4>
+                    <ul class="space-y-2 text-slate-400">
+                        <li>ISO 37001: 2025 (Antisoborno)</li>
+                        <li>ISO 9001:2015 (Calidad)</li>
+                        <li>ISO 14001:2015 (Ambiente)</li>
+                        <li>ISO 45001:2018 (Seguridad SST)</li>
+                        <li>ISO 27001:2022 (Seguridad TI)</li>
+                        <li>ISO 22000:2018 (Inocuidad Alimentaria)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white uppercase text-xs mb-3">Acreditaciones</h4>
+                    <ul class="space-y-2 text-slate-400">
+                        <li>Miembros IAF</li>
+                        <li>Acreditados UAF</li>
+                        <li>Garantía Contractual 100%</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white uppercase text-xs mb-3">Contacto Directo</h4>
+                    <p class="text-slate-300">📍 Av. Luis González 997 (Ref. Esquina de Lora y Cordero)</p>
+                    <p class="text-slate-300">📱 WhatsApp: (+51) 904 483 439</p>
+                    <p class="text-slate-300">📧 Gmail: insprodeisoconsultin@gmail.com</p>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-slate-900 text-center text-slate-500">
+                &copy; 2026 INSPRODE ISO CONSULTING. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón Flotante WhatsApp -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <div id="wa-popover" class="hidden mb-3 w-72 bg-white text-slate-800 rounded-2xl shadow-2xl border border-slate-200 overflow-hidden">
+            <div class="bg-emerald-600 p-4 text-white flex justify-between items-center">
+                <div>
+                    <strong class="block text-xs font-bold">INSPRODE ISO CONSULTING</strong>
+                    <span class="text-[10px]">En línea — Atención Inmediata</span>
+                </div>
+                <button onclick="toggleWhatsApp()"><i class="fa-solid fa-xmark text-sm"></i></button>
+            </div>
+            <div class="p-3 text-xs space-y-2 bg-silver-50">
+                <a href="https://wa.me/51904483439?text=Hola,%20requiero%20asesoria%20para%20ISO%2037001:%202025" target="_blank" class="block bg-white hover:bg-slate-100 p-2.5 rounded-lg border border-slate-200 font-medium">
+                    ⚖️ ISO 37001: 2025 (Antisoborno)
+                </a>
+                <a href="https://wa.me/51904483439?text=Hola,%20requiero%20asesoria%20para%20ISO%209001:2015" target="_blank" class="block bg-white hover:bg-slate-100 p-2.5 rounded-lg border border-slate-200 font-medium">
+                    📌 ISO 9001:2015 (Calidad)
+                </a>
+                <a href="https://wa.me/51904483439?text=Hola,%20requiero%20asesoria%20para%20ISO%2022000:2018" target="_blank" class="block bg-white hover:bg-slate-100 p-2.5 rounded-lg border border-slate-200 font-medium">
+                    🥗 ISO 22000:2018 (Inocuidad)
+                </a>
+            </div>
+        </div>
+        <button onclick="toggleWhatsApp()" class="w-14 h-14 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full shadow-2xl flex items-center justify-center text-2xl transition-all transform hover:scale-110">
+            <i class="fa-brands fa-whatsapp"></i>
+        </button>
+    </div>
+
+    <!-- Scripts Interactivos -->
+    <script>
+        const CONFIG = {
+            companyEmail: "insprodeisoconsultin@gmail.com",
+            companyPhone: "(+51) 904 483 439",
+            rawPhone: "51904483439"
+        };
+
+        function toggleFAQ(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('i');
+            content.classList.toggle('hidden');
+            icon.classList.toggle('rotate-180');
+        }
+
+        function toggleWhatsApp() {
+            document.getElementById('wa-popover').classList.toggle('hidden');
+        }
+
+        function filterIsoCards(category, evt) {
+            const cards = document.querySelectorAll('.iso-card');
+            const buttons = document.querySelectorAll('.tab-btn');
+            
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-brandBlue-600', 'text-white');
+                btn.classList.add('bg-silver-100', 'text-slate-700');
+            });
+            evt.currentTarget.classList.remove('bg-silver-100', 'text-slate-700');
+            evt.currentTarget.classList.add('bg-brandBlue-600', 'text-white');
+
+            cards.forEach(card => {
+                if (category === 'all' || card.classList.contains(category)) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        }
+
+        function openModalIso(title, subtitle, details) {
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-subtitle').innerText = subtitle;
+            document.getElementById('modal-body').innerText = details;
+            document.getElementById('iso-modal').classList.remove('hidden');
+        }
+
+        function closeModalIso() {
+            document.getElementById('iso-modal').classList.add('hidden');
+        }
+
+        function selectNormaInForm(norma) {
+            const sel = document.getElementById('form-norma-select');
+            if (sel) sel.value = norma;
+        }
+
+        // Toggle Menú Móvil
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenuBtn) {
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+
+        // Envío asíncrono (AJAX) del Formulario
+        const isoForm = document.getElementById('isoForm');
+        if (isoForm) {
+            isoForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const btn = document.getElementById('form-submit-btn');
+                const successAlert = document.getElementById('form-success-alert');
+                const originalBtnHtml = btn.innerHTML;
+
+                btn.disabled = true;
+                btn.innerHTML = '<i class="fa-solid fa-circle-notch animate-spin text-xs"></i> <span>Enviando mensaje...</span>';
+
+                const formData = new FormData(isoForm);
+                const dataObj = {};
+                formData.forEach((value, key) => dataObj[key] = value);
+
+                fetch('https://formsubmit.co/ajax/insprodeisoconsultin@gmail.com', {
+                    method: 'POST',
+                    headers: { 
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify(dataObj)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    btn.disabled = false;
+                    btn.innerHTML = originalBtnHtml;
+                    
+                    if (successAlert) {
+                        successAlert.classList.remove('hidden');
+                    }
+                    isoForm.reset();
+                })
+                .catch(error => {
+                    btn.disabled = false;
+                    btn.innerHTML = originalBtnHtml;
+                    alert('Hubo un inconveniente al enviar la solicitud. Por favor vuelva a intentarlo o comuníquese por WhatsApp.');
+                });
+            });
+        }
+    </script>
+</body>
+</html>
